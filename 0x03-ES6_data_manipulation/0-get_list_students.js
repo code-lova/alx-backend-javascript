@@ -1,6 +1,5 @@
 /**
  * Retrieves a list of students.
- * @author Bezaleel Olakunori <https://github.com/B3zaleel>
  * @returns {{id: Number, firstName: String, location: String}[]}
  */
 export default function getListStudents() {
@@ -10,3 +9,4 @@ export default function getListStudents() {
     { id: 5, firstName: 'Serena', location: 'San Francisco' },
   ];
 }
+
